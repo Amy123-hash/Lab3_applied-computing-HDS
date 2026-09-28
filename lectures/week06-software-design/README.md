@@ -9,11 +9,10 @@ hands-on practical).
 
 No new installs this week — everything below uses git (which you set up in
 [Week 1](../week01-computing-environments/README.md)) and whichever of
-Python/R you're already running. If you skipped picking a general-purpose
-IDE in Week 1: in-class demos from here on run in **PyCharm** — following
-along in the same tool removes a layer of "what's the VS Code equivalent of
-what the instructor just clicked," though any editor works fine for the
-actual coursework.
+Python/R you're already running. In-class demos run in a terminal (iTerm2)
+and Jupyter notebooks, since those project best on the classroom screen —
+follow along in whatever editor you already use; any editor works fine for
+the actual coursework.
 
 ## Monday's lecture: paradigms and modular programming
 

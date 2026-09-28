@@ -14,6 +14,20 @@ folds into the 100-point base (20+15+20+15+10+20 = 100). PUBH 4201's
 addendum is optional extra credit stacked on top of their own 100-point
 base (25+20+25+20+10 = 100, +10 if attempted).
 
+## Repository hygiene (deductions — new starting with Lab 3)
+
+Taken off the total above (up to −5), per the shared
+[repository requirements](../README.md#what-not-to-commit):
+
+| Issue | Deduction |
+|---|---|
+| No `.gitignore` at the repo root | −2 |
+| Generated, machine-specific or secret files committed (`.ipynb_checkpoints/`, `__pycache__/`, `.venv/`, `.Rhistory`/`.RData`, `.Rproj.user/`, `renv/library/`, `.DS_Store`, `.env`, …) | −3 |
+
+Lab 2 flagged these as feedback only; from Lab 3 on they cost points.
+Your regex/AI output tables are required deliverables, so committing
+those is expected; don't commit other copies of data.
+
 ## Grading process
 
 Lab 3 does not yet have an automated grading script (unlike
@@ -24,6 +38,11 @@ records" and "handles the majority of format variants" are judged directly
 against what's actually in your repo.
 
 ## How to get full credit: student checklist
+
+### Repository hygiene
+- `.gitignore` at the repo root, and none of the files from the
+  [what-not-to-commit list](../README.md#what-not-to-commit) in the repo
+  (if one slipped in, `git rm -r --cached <path>` and commit).
 
 ### Regex solution correctness
 - Script actually runs against the provided raw file(s) and produces a

@@ -12,4 +12,12 @@ comes up, or whenever a lab/lecture links to one.
   writing `README.md`/`AI_USAGE.md` files, R Markdown/Jupyter text cells,
   and anything else that renders on GitHub.
 
+## External
+
+- [**rig**](https://opensource.posit.co/software/rig/) — Are you trying 
+  to run an R script or build an `renv` that was created with a different
+  version of R? **rig** solves this problem — Rig is an R installation 
+  manager that lets you install, configure, and switch between multiple 
+  R versions on macOS, Windows, and Linux. 
+
 More pages will be added here over the semester as gaps come up.
