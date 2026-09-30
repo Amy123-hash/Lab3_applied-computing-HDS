@@ -29,6 +29,7 @@ data/raw/**/*.zip
 data/raw/**/*.parquet
 data/processed/*
 !data/processed/.gitkeep
+!data/raw/lab3-messy-data/*.csv
 
 # OS / editor
 .DS_Store
