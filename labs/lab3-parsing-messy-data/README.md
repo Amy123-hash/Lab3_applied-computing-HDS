@@ -79,11 +79,3 @@ Your repo should contain:
 - Identify failure modes in automated tools
 - (Graduate addendum) Transform cleaned records into an analytic-ready
   samples × features × metadata table
-
-## Instructor notes (not shown to students)
-
-The synthetic dataset is generator-seeded (`data/raw/lab3-messy-data/generate_data.py`,
-seeds 42/7), so a reference "ground truth" clean table can be regenerated
-deterministically if an answer key is needed for grading. No automated
-grading script exists yet for this lab (unlike `scripts/grade_lab1.py`/
-`grade_lab2.py`) — see `rubric.md`'s grading-process note.
