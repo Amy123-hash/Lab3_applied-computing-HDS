@@ -52,3 +52,14 @@ data/processed/*
 DRAFT*
 .claude/worktrees/
 instructor/student_submissions/*
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+.env
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
